@@ -4,6 +4,7 @@ import HomeView from '../views/HomeView.vue'
 // import PageNotFound from '../components/PageNotFound.vue'
 import Login from '../views/Login.vue'
 import About from '../components/About.vue'
+import userProfile from '../views/userProfile.vue'
 
 Vue.use(VueRouter)
 
@@ -11,7 +12,7 @@ const routes = [
   {
     path: '/Home',
     name: 'home',
-    component: HomeView
+    component: HomeView,
   },
   // {
   //   path: '/:catchAll(.*)*',
@@ -27,6 +28,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component:About,
+  },
+  {
+    path: '/userProfile',
+    name: 'userProfile',
+    component:userProfile,
   }
 ]
 

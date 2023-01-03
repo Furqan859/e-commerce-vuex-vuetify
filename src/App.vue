@@ -1,28 +1,11 @@
 <template>
-<v-app>
 
-    <!-- App.vue -->
-
-    <v-app>
-       
-
-        <!-- Sizes your content based upon application components -->
-        <v-main>
-
-            <!-- Provides the application the proper gutter -->
+        <div>
             <v-container fluid>
-                <!-- If using vue-router -->
                 <router-view></router-view>
             </v-container>
-        </v-main>
+        </div>
 
-    </v-app>
-
-    <v-main>
-        <router-view />
-    </v-main>
-    <Footer />
-</v-app>
 </template>
 
 <script>
@@ -32,7 +15,7 @@
 export default {
     name: 'App',
     components: {
-       
+
     },
 
     data: () => ({

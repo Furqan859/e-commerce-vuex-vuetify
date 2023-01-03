@@ -1,5 +1,8 @@
 <template>
-  <div>Page Not Found</div>
+  <div>
+    <v-app-bar app><router-link to="/home"><h1>Page Not Found</h1></router-link></v-app-bar>
+  
+  </div>
 </template>
 
 <script>
